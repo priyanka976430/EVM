@@ -8,12 +8,12 @@ public class BusyLamp extends Lamp {
 		{
 			lampState = "ON";
 			
-			System.out.println("Lamp Glow");
+			System.out.println("Busy Lamp Glow");
 		}
 		else
 		{
 			lampState = "OFF";
-			System.out.println("Lamp Off");
+			System.out.println("Busy Lamp Off");
 		}
 	}
 

@@ -8,6 +8,7 @@ public class TotalButton extends Button{
 		// TODO Auto-generated method stub
 		if ( state == 0)
 		{
+			System.out.println("Total Button Pressed");
 			return 0;
 		}
 		else
@@ -17,5 +18,10 @@ public class TotalButton extends Button{
 	}
 	
 	
+	public int count(int counter)
+	{
+		count = count+counter;
+		return count;
+	}
 
 }

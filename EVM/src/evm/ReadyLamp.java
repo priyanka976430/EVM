@@ -8,12 +8,12 @@ public class ReadyLamp extends Lamp {
 		{
 			lampState = "ON";
 			
-			System.out.println("Lamp Glow");
+			System.out.println("Ready Lamp Glow");
 		}
 		else
 		{
 			lampState = "OFF";
-			System.out.println("Lamp Off");
+			System.out.println("Ready Lamp Off");
 		}
 	}
 
